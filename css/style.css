@@ -7,6 +7,16 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+h1 {
+    font-size: 45px;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 1em rgb(255, 251, 5);
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: black;
+    user-select: none;      
+
+}
+
 
 body {
     display: grid;
@@ -56,4 +66,15 @@ select {
     text-align: center;
     font-weight: bold;
     font-size: 18px;
+}
+
+.info, .info1, .top {
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.info {
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    user-select: none;      
 }

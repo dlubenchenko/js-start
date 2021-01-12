@@ -1,7 +1,7 @@
 let airlines
 
 
-var app = "https://script.google.com/a/macros/ticketstravelnetwork.com/s/AKfycbxvOnG2MZrW4EcVTgOg9jgxbAETfm_j4HRMEfkEBbAB3XzS2bn8emhl/exec",
+var app = "https://script.googleusercontent.com/a/macros/ticketstravelnetwork.com/echo?user_content_key=oE9kX62cQ91G0JaHXENzmYEp_Ml_l89_8-aiY1N_M1OVn8rfU5GwX4xpiNwttYZVnLXiqSnG1O-Bq2hJ9SrvHEdm12U2pp-lm5_BxDlH2jW0nuo2oDemN9CCS2h10ox_nRPgeZU6HP9imV2sZjih4zgvYAWmpNMZJffnCWaVvz3JzkgaHWr9clxyUjkLCm_QS2p9D3MTOKFYRWV0mfjPLC8UOww90mLwiPgEgjIGycxlVTVci-SEy64AkrBPoXqWQslXG4EG404&lib=MyI6LAjNJ4pddlKKjgwOYgKAZcoUUyC-k",
     output = '',
     xhr = new XMLHttpRequest();
 xhr.open('GET', app);
