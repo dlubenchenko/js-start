@@ -20,7 +20,7 @@ h1 {
 
 body {
     display: grid;
-    grid-template-columns: 1fr 1fr 2fr 1fr 2fr 2fr 2fr 1fr 1fr 2fr 5fr;  
+    grid-template-columns: 0.5fr 2fr 2fr 1fr 2fr 2fr 2fr 1fr 1fr 3fr 7fr;  
 }
 
 .top:nth-child(2) {
@@ -114,4 +114,8 @@ select {
 .info1:nth-child(19),
 .info1:nth-child(30)  {
     font: bold 25px Roboto;
+}
+
+.top {
+    padding: 0%;
 }
