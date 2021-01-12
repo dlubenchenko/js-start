@@ -31,7 +31,7 @@ select {
 }
 
 .info:nth-child(-n+14), .info1:nth-child(-n+29) {
-    background-color: rgb(248, 120, 120);
+    background-color: rgb(255, 165, 165);
 }
 
 .info:nth-child(-n+14) {
@@ -45,7 +45,7 @@ select {
 }
 
 .info:nth-child(n+15), .info1:nth-child(n+30) {
-    background-color: rgb(191, 152, 255);
+    background-color: rgb(221, 200, 255);
 }
 
 .info1:nth-child(n+30) {
