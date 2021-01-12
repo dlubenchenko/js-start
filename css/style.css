@@ -116,6 +116,6 @@ select {
     font: bold 25px Roboto;
 }
 
-.top {
-    padding: 0%;
+.top h1 {
+    margin: 0%;
 }
