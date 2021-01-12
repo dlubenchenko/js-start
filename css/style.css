@@ -11,8 +11,6 @@ h1 {
     font-size: 45px;
     color: white;
     text-shadow: 1px 1px 2px black, 0 0 1em rgb(255, 251, 5);
-    -webkit-text-stroke-width: 0.1px;
-    -webkit-text-stroke-color: black;
     user-select: none;      
 
 }
