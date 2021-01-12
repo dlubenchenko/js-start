@@ -44,7 +44,11 @@ function alInfo() {
         .filter(key => key.includes(document.querySelector('#select').value))
     // console.log('Обрана авіакомпанія', selected[0])
 
-    for (let i = 0; i < 15; i++) {
+    for (let i = 0; i < 11; i++) {
+        document.querySelectorAll('.info')[i].innerHTML = `${airlines[0][i]}`
+        document.querySelectorAll('.info1')[i].innerHTML = `${selected[0][i]}`
+    }
+    for (let i = 11; i < 15; i++) {
         document.querySelectorAll('.info')[i].innerHTML = `${airlines[0][i]}`
         document.querySelectorAll('.info1')[i].innerHTML = `${selected[0][i]}`
     }

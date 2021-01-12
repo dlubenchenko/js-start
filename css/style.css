@@ -20,19 +20,20 @@ h1 {
 
 body {
     display: grid;
-    grid-template-columns: repeat(15, 1fr);  
+    grid-template-columns: 1fr 1fr 2fr 1fr 2fr 2fr 2fr 1fr 1fr 1fr 5fr;  
 }
 
 .top:nth-child(2) {
     text-align: center;
-    grid-column: 1 / 12;
+    grid-column: 1 / -1;
     background-color: rgb(248, 120, 120);
 }
 
 .top:nth-child(3) {
     text-align: center;
+    grid-column: 1 / -1;
+    grid-row: 6 / 7;
     background-color: rgb(191, 152, 255);
-    grid-column: 12 / 16;
 }
 
 select {
@@ -80,3 +81,33 @@ select {
     -khtml-user-select: none;
     user-select: none;      
 }
+
+.info:nth-child(15),
+.info:nth-child(16),
+.info:nth-child(17),
+.info:nth-child(18) {
+    grid-row: 8 / 9;
+}
+
+.info1:nth-child(30),
+.info1:nth-child(31),
+.info1:nth-child(32),
+.info1:nth-child(33) {
+    grid-row: 9 / 10;
+}
+
+.info1:nth-child(33),
+.info:nth-child(18) {
+    grid-column: 8 / 12;
+}
+
+.info1:nth-child(32),
+.info:nth-child(17) {
+    grid-column: 4 / 8;
+}
+
+.info1:nth-child(31),
+.info:nth-child(16) {
+    grid-column: 2 / 4;
+}
+
