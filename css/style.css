@@ -38,6 +38,8 @@ body {
 select {
     grid-column: 1 / -1;
     width: 50%;
+    height: 30px;
+    border-radius: 5px;
 }
 
 .info:nth-child(-n+14), .info1:nth-child(-n+29) {
