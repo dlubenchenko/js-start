@@ -111,3 +111,7 @@ select {
     grid-column: 2 / 4;
 }
 
+.info1:nth-child(19),
+.info1:nth-child(30)  {
+    font: bold 25px Roboto;
+}
