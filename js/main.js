@@ -40,13 +40,6 @@ function alInfo() {
         .filter(key => key !== '')
     // console.log(airline)
 
-    for (let i = 0; i < airline.length; i++) {
-        let a = document.createElement('option')
-        a.text = airline[i];
-        select.append(a)
-
-    }
-
     let selected = airlines
         .filter(key => key.includes(document.querySelector('#select').value))
     // console.log('Обрана авіакомпанія', selected[0])
