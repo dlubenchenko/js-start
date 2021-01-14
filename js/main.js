@@ -19,11 +19,11 @@ xhr.onreadystatechange = function () {
                 .filter(key => key !== '')
             // console.log(airline)
 
-            for (let i = 0; i < airline.length; i++) {
-                let a = document.createElement('option')
-                a.text = airline[i];
-                select.append(a)
-            }
+            // for (let i = 0; i < airline.length; i++) {
+            //     let a = document.createElement('option')
+            //     a.text = airline[i];
+            //     select.append(a)
+            // }
 
         } catch (e) {}
     }
@@ -40,8 +40,10 @@ function alInfo() {
         .filter(key => key !== '')
     // console.log(airline)
 
+    let a = document.querySelector('#select').value.toUpperCase()
+
     let selected = airlines
-        .filter(key => key.includes(document.querySelector('#select').value))
+        .filter(key => key.includes(a))
     // console.log('Обрана авіакомпанія', selected[0])
 
     for (let i = 0; i < 11; i++) {
