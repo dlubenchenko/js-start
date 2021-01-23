@@ -30,8 +30,6 @@ xhr.onreadystatechange = function () {
 }
 xhr.send()
 
-
-
 // setTimeout(function() {
 //     console.log(airlines);
 //   }, 10000);
