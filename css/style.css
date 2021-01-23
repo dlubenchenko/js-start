@@ -1,6 +1,5 @@
 body {
     background-color: khaki;
-    grid-gap: 3px;
 }
 
 * {
@@ -16,9 +15,10 @@ h1 {
 }
 
 
-body {
+#content {
     display: grid;
     grid-template-columns: 0.5fr 2fr 2fr 1fr 2fr 2fr 2fr 1fr 1fr 3fr 7fr;  
+    grid-gap: 3px;
 }
 
 .top:nth-child(2) {
@@ -34,7 +34,7 @@ body {
     background-color: rgb(191, 152, 255);
 }
 
-input {
+#select {
     grid-column: 1 / -1;
     width: 50%;
     height: 30px;
